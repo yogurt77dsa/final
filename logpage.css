@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+* {
+    font-family: 'Tilt Neon', sans-serif;
+    background-color: #50406b;
+}
+
+
+.container {
+    margin: 200px auto;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.signUpButton, .signUp, .text, .icon, .socialMediaIcons, .orText, .container, .login, .email, .password, .rememberMe, .loginButton, .forgotPasswordButton, .dataToLogIn, .emailInput, .passwordInput, .rememberMeText, .emailText, .passwordText {
+    background-color: aliceblue;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
+.emailText {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+}
+
+.passwordText {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.passwordInput {
+    border-radius: 5px;
+    width: 235px;
+    height: 25px;
+    margin-left: 30px;
+}
+
+.emailInput {
+    border-radius: 5px;
+    width: 235px;
+    margin-left: 30px;
+    height: 25px;
+}
+
+.rememberMe {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.rememberMeText {
+    font-size: 15px;
+    font-weight: 5px;
+}
+
+.loginButton {
+    border-radius: 5px;
+    width: 240px;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 30px;
+    height: 30px;
+    font-size: 17px;
+    background-color: #311a42;
+    box-shadow: 1px 1px 2px 2px rgb(114, 113, 113);
+    color: #fff;
+}
+
+.loginButton:hover {
+    background-color: #201730;
+}
+
+.loginButton:active {
+    transform: translateY(2px);
+}
+
+.forgotPasswordButton {
+    margin-left: 160px;
+    width: 118px;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    cursor: pointer;
+    box-shadow: black;
+    margin-top: 10px;
+}
+
+.login {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.orText {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.socialMediaIcons {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.fa-google-plus-g, .fa-facebook-f, .fa-instagram, .fa-tiktok {
+    background-color: aliceblue;
+}
+
+.fa-facebook-f, .fa-instagram, .fa-tiktok {
+    margin-left: 15px;
+}
+
+.signUp {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.text {
+    font-size: 12px;
+}
+
+.signUpButton {
+    cursor: pointer;
+    width: 62px;
+    font-size: 13px;
+    text-transform: uppercase;
+    border: none;
+    border-bottom-style: solid;
+}
+.signupLink {
+    background-color: #fff;
+}
+
+.indexBtn {
+    color: #fff;
+    background-color: #311a42;
+}
+
+.indexBtn:hover {
+    background-color: #201730;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Темная тема */
+body.dark-mode {
+    background: linear-gradient(135deg, #2c2c2c, #1a1a1a);
+    color: #ddd;
+}
+
+nav.dark-mode a {
+    color: #ddd;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+nav.dark-mode a:hover {
+    background-color: #444444;
+    color: #ffffff;
+}
+
+main.dark-mode {
+    background: rgba(50, 50, 50, 0.9);
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.5);
+    border: 1px solid #555;
+}
+
+form.dark-mode {
+    background-color: #333;
+    color: #ddd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+label.dark-mode {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    color: #ffffff;
+}
+
+input.dark-mode, select.dark-mode, textarea.dark-mode {
+    background-color: #444;
+    border: 1px solid #666;
+    color: #ddd;
+}
+
+button.dark-mode {
+    background: linear-gradient(135deg, #444444, #555555);
+}
+
+button.dark-mode:hover {
+    background-color: #333333;
+}
+
+footer.dark-mode {
+    background-color: #1a1a1a;
+}
+
+footer.dark-mode p {
+    color: #bbb;
+}
+
+h1, h2.dark-mode {
+    color: #ffffff;
+}
+
+p.dark-mode {
+        color: #ffffff;
+}
